@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - 김개발</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>김개발</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    안녕하세요, <span class="highlight">김개발</span>입니다
+                </h1>
+                <p class="hero-subtitle">
+                    창의적이고 혁신적인 웹 개발자로서<br>
+                    사용자 경험을 중시하는 디지털 솔루션을 만듭니다
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">프로젝트 보기</a>
+                    <a href="#contact" class="btn btn-secondary">연락하기</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-img-container">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face" alt="Profile" class="profile-img">
+                    <div class="floating-elements">
+                        <div class="floating-element element-1">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <div class="floating-element element-2">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <div class="floating-element element-3">
+                            <i class="fab fa-js-square"></i>
+                        </div>
+                        <div class="floating-element element-4">
+                            <i class="fab fa-react"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        웹 개발에 열정을 가진 개발자로서, 사용자 중심의 디자인과 
+                        최신 기술을 활용한 웹 애플리케이션 개발에 집중하고 있습니다.
+                    </p>
+                    <p>
+                        프론트엔드와 백엔드 개발 경험을 바탕으로 
+                        전체적인 웹 개발 프로세스를 이해하고 있으며, 
+                        지속적인 학습을 통해 새로운 기술을 습득하고 있습니다.
+                    </p>
+                    <div class="skills">
+                        <h3>주요 기술</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=300&fit=crop" alt="E-commerce Project">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-github">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-commerce Platform</h3>
+                        <p class="project-description">
+                            React와 Node.js를 활용한 풀스택 이커머스 플랫폼입니다. 
+                            사용자 인증, 결제 시스템, 관리자 대시보드 기능을 포함합니다.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop" alt="Task Management App">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-github">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Task Management App</h3>
+                        <p class="project-description">
+                            드래그 앤 드롭 기능이 있는 칸반 보드 스타일의 
+                            작업 관리 애플리케이션입니다. 실시간 협업 기능을 지원합니다.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">Socket.io</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=500&h=300&fit=crop" alt="Weather Dashboard">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-github">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Weather Dashboard</h3>
+                        <p class="project-description">
+                            실시간 날씨 정보를 제공하는 대시보드입니다. 
+                            위치 기반 서비스와 데이터 시각화를 통해 
+                            직관적인 사용자 경험을 제공합니다.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Chart.js</span>
+                            <span class="tech-tag">OpenWeather API</span>
+                            <span class="tech-tag">CSS Grid</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>연락주세요!</h3>
+                    <p>
+                        새로운 프로젝트나 협업 기회에 대해 
+                        언제든지 연락주시기 바랍니다.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>kimdev@example.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+82 10-1234-5678</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>서울, 대한민국</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="이름" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="이메일" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="제목" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="메시지" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">메시지 보내기</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 김개발. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
